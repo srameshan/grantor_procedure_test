@@ -1,0 +1,8 @@
+{
+  "DOCTORS": {
+    "target": {
+      "object": "grantor_proc_test::DOCTORS",
+      "schema": "HOSPITAL"
+    }
+  }
+}

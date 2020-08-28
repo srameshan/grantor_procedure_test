@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="CV_DOCTORS" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="false">
+<descriptions defaultDescription="CV_DOCTORS"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="DOCTORS">
+    <resourceUri>DOCTORS</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="DOCTORS">
+  <attributes>
+    <attribute id="DOC_iD" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Doctor ID"/>
+      <keyMapping columnObjectName="DOCTORS" columnName="DOC_iD"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>
